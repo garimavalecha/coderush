@@ -1,0 +1,74 @@
+.hello
+{
+  padding-top: 100px;
+}
+.f1
+{ padding-left: 5%;
+  color:white;
+padding-right: 5%;
+  font-size:30px;
+
+}
+
+.f2
+{color:white;
+  
+  font-size:30px;
+}
+.middle { 
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+p.ex1 {
+  padding-top: 160%;
+}
+hr {
+  margin: auto;
+  width: 40%;
+}
+body
+
+{ 
+  color:white;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+ animation-delay: 2s;
+}
+
+.slider {
+ 
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+ 
+}
+.slide1 {
+  background: url(https://d.wattpad.com/story_parts/532207265/images/1511922555876655514675414396.gif)no-repeat center;
+      background-size: cover;
+    animation:fade  20s ;
+-webkit-animation:fade 20s ;
+
+ height: 650px;
+
+  background-size: cover;
+  position: relative;
+
+
+} 
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
